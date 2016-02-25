@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawMainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:id="@+id/toolBar"
+        android:fitsSystemWindows="true"
+        >
+    </android.support.v7.widget.Toolbar>
+</FrameLayout>
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:id="@+id/recyclerView"
+        android:background="#FFFFFF"
+        android:layout_gravity="left"
+        />
+</android.support.v4.widget.DrawerLayout>
